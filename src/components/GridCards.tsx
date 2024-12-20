@@ -6,9 +6,12 @@ import { useEffect, useState } from "react";
 
 
 interface GridCardsPros{
-    listPokemon:[{ 
-        name:string,number:string
-    }]
+    listPokemon:
+        { 
+        name:string,
+        number:string
+    }[]
+
 }
 
 export default function GridCards({ listPokemon }:GridCardsPros) {
